@@ -53,19 +53,11 @@ if __name__ =="__main__":
 
     # specify the menu definition we'll stick in the sidebar
     side_menu_data = [
-        {'id':'First page', 'icon': "bi bi-collection", 'label':"Explore database",'ttip':"Quick product intro"},
-        {'id':'Second page', 'icon': "bi bi-file-bar-graph", 'label':"My Company",'ttip':"Quick product intro"},
-        {'id':'Third page', 'icon': "bi bi-bar-chart-fill", 'label':"QRA setup",'ttip':"Quick product intro"},
-        {'id':'Fourth page', 'icon': "bi bi-sliders", 'label':"QRA tool",'ttip':"Quick product intro"},
         {'id':'Fifth page', 'icon': "fas fa-brain", 'label':"Prescriptive AI",'ttip':"Quick product intro"},
     ]
 
     # specify the primary menu definition
     menu_data = [
-        {'id':'First page', 'icon': "bi bi-collection", 'label':"Explore database",'ttip':"Quick product intro"},
-        {'id':'Second page', 'icon': "bi bi-file-bar-graph", 'label':"My Company",'ttip':"Quick product intro"},
-        {'id':'Third page', 'icon': "bi bi-bar-chart-fill", 'label':"QRA setup",'ttip':"Quick product intro"},
-        {'id':'Fourth page', 'icon': "bi bi-sliders", 'label':"QRA tool",'ttip':"Quick product intro"},
         {'id':'Fifth page', 'icon': "fas fa-brain", 'label':"Prescriptive AI",'ttip':"Quick product intro"},
 
     ]
@@ -87,11 +79,7 @@ if __name__ =="__main__":
 def main():
     # Register your pages
     pages = {
-        "Home": home_page,
-        "First page": page_one,
-        "Second page": page_two,
-        "Third page": page_three,
-        "Fourth page": page_four,
+        "Home": page_three,
         "Fifth page": page_five
     }
 
